@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "preinstall": "node ./scripts/preinstall.js",
     "dev": "vite --open",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
@@ -16,6 +17,8 @@
     "commitlint": "commitlint --config commitlint.config.cjs -e -V"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "element-plus": "^2.3.14",
     "vue": "^3.3.4"
   },
   "devDependencies": {
