@@ -5,7 +5,7 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
-const message = ref("中国")
+const message = ref('中国')
 </script>
 <style scoped lang="scss">
 .box {
