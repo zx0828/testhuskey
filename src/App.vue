@@ -1,5 +1,6 @@
 <template>
   <div class="box">
+    <p>这是一个比较完整验证的项目</p>
     <h1>hello {{ message }}</h1>
   </div>
 </template>
