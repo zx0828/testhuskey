@@ -6,6 +6,8 @@
   "scripts": {
     "preinstall": "node ./scripts/preinstall.js",
     "dev": "vite --open",
+    "build:test":"vite-tsc && vite build && --mode test",
+    "build:production":"vite-tsc && vite build && --mode production",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src",

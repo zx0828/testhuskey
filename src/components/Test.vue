@@ -1,11 +1,8 @@
 <template>
-    <div>
-        测试test@
-    </div>
+  <div>测试test@</div>
 </template>
 
 <script lang="ts" setup>
-import { } from "vue";
+import {} from 'vue'
 </script>
-<style lang="less" scoped>
-</style>
+<style lang="less" scoped></style>

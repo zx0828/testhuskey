@@ -10,6 +10,8 @@ import 'element-plus/dist/index.css'
 const app = createApp(App)
 //国际化配置
 app.use(ElementPlus, {
-    locale: zhCn,
+  locale: zhCn,
 })
 app.mount('#app')
+//输出环境中的值
+console.log(import.meta.env)
